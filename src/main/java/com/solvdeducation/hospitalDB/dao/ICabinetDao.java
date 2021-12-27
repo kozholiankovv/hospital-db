@@ -1,4 +1,6 @@
 package com.solvdeducation.hospitalDB.dao;
 
-public interface ICabinetDao extends IBaseDao{
+import com.solvdeducation.hospitalDB.model.premises.Cabinet;
+
+public interface ICabinetDao extends IBaseDao<Cabinet> {
 }

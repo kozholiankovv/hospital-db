@@ -1,4 +1,6 @@
 package com.solvdeducation.hospitalDB.dao;
 
-public interface IRoomDao extends IBaseDao{
+import com.solvdeducation.hospitalDB.model.premises.Room;
+
+public interface IRoomDao extends IBaseDao<Room> {
 }

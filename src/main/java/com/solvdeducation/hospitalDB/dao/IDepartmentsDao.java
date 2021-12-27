@@ -1,4 +1,6 @@
 package com.solvdeducation.hospitalDB.dao;
 
-public interface IDepartmentsDao extends IBaseDao{
+import com.solvdeducation.hospitalDB.model.buildings.Departments;
+
+public interface IDepartmentsDao extends IBaseDao<Departments> {
 }

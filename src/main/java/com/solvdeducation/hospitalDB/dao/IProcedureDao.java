@@ -1,4 +1,6 @@
 package com.solvdeducation.hospitalDB.dao;
 
-public interface IProcedureDao extends IBaseDao{
+import com.solvdeducation.hospitalDB.model.hospitalServices.Procedure;
+
+public interface IProcedureDao extends IBaseDao<Procedure> {
 }

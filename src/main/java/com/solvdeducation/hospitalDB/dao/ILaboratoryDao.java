@@ -1,4 +1,6 @@
 package com.solvdeducation.hospitalDB.dao;
 
-public interface ILaboratoryDao extends IBaseDao{
+import com.solvdeducation.hospitalDB.model.premises.Laboratory;
+
+public interface ILaboratoryDao extends IBaseDao<Laboratory> {
 }

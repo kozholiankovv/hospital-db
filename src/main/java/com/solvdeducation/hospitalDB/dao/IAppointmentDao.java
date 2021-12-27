@@ -1,4 +1,6 @@
 package com.solvdeducation.hospitalDB.dao;
 
-public interface IAppointmentDao extends IBaseDao{
+import com.solvdeducation.hospitalDB.model.hospitalServices.Appointment;
+
+public interface IAppointmentDao extends IBaseDao<Appointment> {
 }
